@@ -10,7 +10,7 @@
 
 ## Building prod
 ```
-docker build -f Dockerfile.prod -t dockerized-vite-app-test-prod .
+docker build --build-arg VITE_API_URL=http://localhost:1234/prod-api-url -f Dockerfile.prod -t dockerized-vite-app-test-prod .
 ```
 To test the build:
 ```
