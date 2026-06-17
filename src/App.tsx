@@ -21,6 +21,7 @@ function App() {
           <p>Test 6</p>
           <p>VITE_APP_NAME value: <b>{import.meta.env.VITE_APP_NAME}</b></p>
           <p>VITE_API_URL value: <b>{import.meta.env.VITE_API_URL}</b></p>
+          <p>VITE_GREETING value: <b>{import.meta.env.VITE_GREETING}</b></p>
           <p>
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>

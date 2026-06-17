@@ -1,6 +1,8 @@
 services:
   vite-app:
     build: .
+    environment:
+      - VITE_GREETING=From docker-compose.yml, injected by Docker Compose
     ports:
       - "5173:5173"
     volumes:
